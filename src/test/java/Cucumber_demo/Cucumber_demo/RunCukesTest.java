@@ -9,9 +9,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		format = { "pretty", "junit:target/surefire-reports/TESTRunCukesTest.xml", "html:target/cucumber", "json:target/cucumber.json" }, 
 		monochrome = true, 
-		features = { "classpath:src/test/java/resourses/feature/" }, 
+		features = { "classpath:resourses/feature" }, 
 		glue = { "classpath:Cucumber_demo/Cucumber_demo" },
-		tags = { "@run, @Siarhei" }
+		tags = { "@run" }
 		)
 	public class RunCukesTest {
 	}
