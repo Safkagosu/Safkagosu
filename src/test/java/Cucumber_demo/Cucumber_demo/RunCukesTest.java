@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true, 
 		features = { "classpath:src/test/java/resourses/feature" }, 
 		glue = { "classpath:src/test/java/Cucumber_demo/Cucumber_demo" },
-		tags = { "@run" }
+		tags = { "@run, @Siarhei" }
 		)
 	public class RunCukesTest {
 	}
